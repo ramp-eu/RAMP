@@ -1,3 +1,6 @@
 [submodule "TTE.project1"]
 	path = TTE.project1
 	url = https://github.com/jason-fox/TTE.project1
+[submodule "TTE.project2"]
+	path = TTE.project2
+	url = https://github.com/jason-fox/TTE.project2
