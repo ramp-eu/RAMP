@@ -8,7 +8,8 @@
 <br/>
 [![Documentation badge](https://img.shields.io/readthedocs/&lt;org&gt;-&lt;project&gt;.svg)](http://<org>-<project>.readthedocs.io/en/latest/?badge=latest)
 [![Build badge](https://img.shields.io/travis/jason-fox/TTE.project1.svg)](https://travis-ci.org/jason-fox/TTE.project1/)
-[![Coverage Status](https://coveralls.io/repos/github/jason-fox/TTE.project1/badge.svg?branch=master)](https://coveralls.io/github/jason-fox/TTE.project1?branch=master)
+[![Coveralls github](https://img.shields.io/coveralls/github/jason-fox/TTE.project1)](https://coveralls.io/github/jason-fox/TTE.project1?branch=master)
+[![Codacy grade](https://img.shields.io/codacy/grade/99310c5c4332439197633912a99d2e3c)](https://www.codacy.com/manual/jason-fox/TTE.project1)
 
 
 ```
@@ -23,7 +24,8 @@ One or two sentence preamble describing the element
 <br/>
 [![Documentation badge](https://img.shields.io/readthedocs/&lt;org&gt;-&lt;project&gt;.svg)](http://<org>-<project>.readthedocs.io/en/latest/?badge=latest)
 [![Build badge](https://img.shields.io/travis/jason-fox/TTE.project2.svg)](https://travis-ci.org/jason-fox/TTE.project2/)
-[![Coverage Status](https://coveralls.io/repos/github/jason-fox/TTE.project2/badge.svg?branch=master)](https://coveralls.io/github/jason-fox/TTE.project2?branch=master)
+[![Coveralls github](https://img.shields.io/coveralls/github/jason-fox/TTE.project1)](https://img.shields.io/coveralls/github/jason-fox/TTE.project2)
+[![Codacy grade](https://img.shields.io/codacy/grade/5aee8bfb78f243d4b38d1032baefb06c)](https://www.codacy.com/manual/jason-fox/TTE.project2)
 
 ```
 One or two sentence preamble describing the element
