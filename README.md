@@ -1,5 +1,18 @@
 # RAMP.sample
 
+# mod.iot.sp.local
+
+[![License: MIT](https://img.shields.io/github/license/ramp-eu/mod.iot.sp.local.svg)](https://opensource.org/licenses/MIT)
+
+OPIL module: Local Sensing & Perception (Local SP)
+
+
+# mod.sw.sp
+
+[![License: MIT](https://img.shields.io/github/license/ramp-eu/mod.sw.sp.svg)](https://opensource.org/licenses/MIT)
+
+OPIL module: Central Sensing & Perception (Central SP) 
+
 
 # Project 1
 
