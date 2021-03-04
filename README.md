@@ -1,45 +1,47 @@
-# RAMP.sample
-
-# mod.iot.sp.local
-
-[![License: MIT](https://img.shields.io/github/license/ramp-eu/mod.iot.sp.local.svg)](https://opensource.org/licenses/MIT)
-
-OPIL module: Local Sensing & Perception (Local SP)
 
 
-# mod.sw.sp
+## Motion Task Planner
 
-[![License: MIT](https://img.shields.io/github/license/ramp-eu/mod.sw.sp.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache-2.0](https://img.shields.io/github/license/ramp-eu/Motion_Task_Planner.svg)](https://opensource.org/licenses/Apache-2.0)
 
-OPIL module: Central Sensing & Perception (Central SP) 
+This Motion Task Planning module computes a motion task plan for the AGVs. This motion task provides a deadlock-free, optimal or near optimal path without loops and collision. Beyond this path computation the Motion Task Planning component handles the communication with the RAN
 
+## Robot Agent Node
 
-# Project 1
+[![License: Apache-2.0](https://img.shields.io/github/license/ramp-eu/Robot_Agent_Node.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[![License: MIT](https://img.shields.io/github/license/ramp-eu/TTE.project1.svg)](https://opensource.org/licenses/MIT)
-[![Docker badge](https://img.shields.io/docker/pulls/ramp-eu/TTE.project1.svg)](https://hub.docker.com/r/<org>/<repo>/)
-<br/>
-[![Documentation badge](https://img.shields.io/readthedocs/&lt;org&gt;-&lt;project&gt;.svg)](http://<org>-<project>.readthedocs.io/en/latest/?badge=latest)
-[![Build badge](https://img.shields.io/travis/ramp-eu/TTE.project1.svg)](https://travis-ci.org/ramp-eu/TTE.project1/)
-[![Coveralls github](https://img.shields.io/coveralls/github/ramp-eu/TTE.project1)](https://coveralls.io/github/ramp-eu/TTE.project1?branch=master)
-[![Codacy grade](https://img.shields.io/codacy/grade/99310c5c4332439197633912a99d2e3c)](https://www.codacy.com/manual/ramp-eu/TTE.project1)
+The RAN (Robot Agent Node) is located between OPIL and the Robot Hardware. It provides two main functionalities: it manages robot navigation, based on ROS, and works as an interface between the robot hardware and the OPIL Cyber Physical Middleware.
 
+## Task Supervisor
 
-```
-One or two sentence preamble describing the element
-```
+[![License: Apache-2.0](https://img.shields.io/github/license/ramp-eu/Task_Supervisor.svg)](https://opensource.org/licenses/Apache-2.0)
+
+The TaskSupervisor is a system monitor that provides information about the ongoing tasks, as well as their general status
 
 
-# Project2
+## FIROS
 
-[![License: MIT](https://img.shields.io/github/license/ramp-eu/TTE.project2.svg)](https://opensource.org/licenses/MIT)
-[![Docker badge](https://img.shields.io/docker/pulls/ramp-eu/TTE.project2.svg)](https://hub.docker.com/r/<org>/<repo>/)
-<br/>
-[![Documentation badge](https://img.shields.io/readthedocs/&lt;org&gt;-&lt;project&gt;.svg)](http://<org>-<project>.readthedocs.io/en/latest/?badge=latest)
-[![Build badge](https://img.shields.io/travis/ramp-eu/TTE.project2.svg)](https://travis-ci.org/ramp-eu/TTE.project2/)
-[![Coveralls github](https://img.shields.io/coveralls/github/ramp-eu/TTE.project1)](https://img.shields.io/coveralls/github/ramp-eu/TTE.project2)
-[![Codacy grade](https://img.shields.io/codacy/grade/5aee8bfb78f243d4b38d1032baefb06c)](https://www.codacy.com/manual/ramp-eu/TTE.project2)
+[![License: MIT](https://img.shields.io/github/license/ramp-eu/FIROS.svg)](https://opensource.org/licenses/MIT)
 
-```
-One or two sentence preamble describing the element
-```
+FIROS helps to connect ROS-based robots to the FIWARE Ecosystem, transforming ROS messages into NGSI v2 to publish them in the cloud, and vice versa.
+
+
+## Human-Machine_Interface
+
+[![License: Apache-2.0](https://img.shields.io/github/license/ramp-eu/Human-Machine_Interface.svg)](https://opensource.org/licenses/Apache-2.0)
+
+HMI is a software layer module of the OPIL architecture. It is a web application server with its own local database for storing data needed in this module. HMI serves a web browser user interface for the human agents to monitor and control OPIL data entities.
+
+## Central_Sensing_and_Perception
+
+[![License: Apache-2.0](https://img.shields.io/github/license/ramp-eu/Central_Sensing_and_Perception.svg)](https://opensource.org/licenses/Apache-2.0)
+
+Sensing & Perception is a software module as part of OPIL. It provides the pose of the AGV inside the built map of the environment in which the AGV is navigating and updates the map with the new sensor readings. Additionally, it can build the map with SLAM (Simultaneous Localization And Mapping) if no map is given initially.
+
+
+## Local_Sensing_and_Perception
+
+[![License: Apache-2.0](https://img.shields.io/github/license/ramp-eu/Local_Sensing_and_Perception.svg)](https://opensource.org/licenses/Apache-2.0)
+
+The local SP module calculates a pose with covariance of the AGV inside the built map or calculates a pose with covariance of the AGV inside the incrementally built map of the SLAM process and sends a pose with covariance of the AGV to Task Planner, HMI, RAN.
+
