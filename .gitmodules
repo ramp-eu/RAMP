@@ -1,0 +1,24 @@
+[submodule "logistics/Local_Sensing_and_Perception"]
+	path = logistics/Local_Sensing_and_Perception
+	url = https://github.com/ramp-eu/Local_Sensing_and_Perception
+[submodule "logistics/Central_Sensing_and_Perception"]
+	path = logistics/Central_Sensing_and_Perception
+	url = https://github.com/ramp-eu/Central_Sensing_and_Perception
+[submodule "logistics/Human-Machine_Interface"]
+	path = logistics/Human-Machine_Interface
+	url = https://github.com/ramp-eu/Human-Machine_Interface
+[submodule "logistics/FIROS"]
+	path = logistics/FIROS
+	url = https://github.com/ramp-eu/FIROS
+[submodule "logistics/Task_Supervisor"]
+	path = logistics/Task_Supervisor
+	url = https://github.com/ramp-eu/Task_Supervisor
+[submodule "logistics/Robot_Agent_Node"]
+	path = logistics/Robot_Agent_Node
+	url = https://github.com/ramp-eu/Robot_Agent_Node
+[submodule "logistics/Motion_Task_Planner"]
+	path = logistics/Motion_Task_Planner
+	url = https://github.com/ramp-eu/Motion_Task_Planner
+[submodule "templates/TTE.project1"]
+	path = templates/TTE.project1
+	url = https://github.com/ramp-eu/TTE.project1
