@@ -26,20 +26,20 @@ The TaskSupervisor is a system monitor that provides information about the ongoi
 FIROS helps to connect ROS-based robots to the FIWARE Ecosystem, transforming ROS messages into NGSI v2 to publish them in the cloud, and vice versa.
 
 
-## Human-Machine_Interface
+## Human-Machine Interface
 
 [![License: Apache-2.0](https://img.shields.io/github/license/ramp-eu/Human-Machine_Interface.svg)](https://opensource.org/licenses/Apache-2.0)
 
 HMI is a software layer module of the OPIL architecture. It is a web application server with its own local database for storing data needed in this module. HMI serves a web browser user interface for the human agents to monitor and control OPIL data entities.
 
-## Central_Sensing_and_Perception
+## Central Sensing and Perception
 
 [![License: Apache-2.0](https://img.shields.io/github/license/ramp-eu/Central_Sensing_and_Perception.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Sensing & Perception is a software module as part of OPIL. It provides the pose of the AGV inside the built map of the environment in which the AGV is navigating and updates the map with the new sensor readings. Additionally, it can build the map with SLAM (Simultaneous Localization And Mapping) if no map is given initially.
 
 
-## Local_Sensing_and_Perception
+## Local Sensing and Perception
 
 [![License: Apache-2.0](https://img.shields.io/github/license/ramp-eu/Local_Sensing_and_Perception.svg)](https://opensource.org/licenses/Apache-2.0)
 
