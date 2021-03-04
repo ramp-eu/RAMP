@@ -1,4 +1,4 @@
-![](https://avatars.githubusercontent.com/u/68951837?s=200&v=4)
+<img src="https://ramp-eu.github.io/RAMP/img/ramp.png" align="center">
 
 ## What is RAMP?
 
