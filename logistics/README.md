@@ -12,6 +12,17 @@ This Motion Task Planning module computes a motion task plan for the AGVs. This 
 
 The RAN (Robot Agent Node) is located between OPIL and the Robot Hardware. It provides two main functionalities: it manages robot navigation, based on ROS, and works as an interface between the robot hardware and the OPIL Cyber Physical Middleware.
 
+## Sensor Agent Node
+
+[![License: Apache-2.0](https://img.shields.io/github/license/ramp-eu/Sensor_Agent_Node.svg)](https://opensource.org/licenses/Apache-2.0)
+
+The SAN (Sensor Agent Node) is located between OPIL and the sensor software and it is a extension of Esthesis platform. It's main features are: 
+
+-   Supports sensors and actuators (Input and output sensors). 
+-   Drivers of the sensors and actuators can be written in any prefered/suitable programming language(can use existing drivers), given that at the end the data are sent/retrieved through mqtt protocol, no restriction other than this. 
+-   Monitors health of host device(Disk space usage, Memory usage,Restart services, check logs for each running service, Monitor CPU temperature ). 
+-   Can be deployed to any host machine that supports java language, eg single board computers like rpi, revpi or any other.
+
 ## Task Supervisor
 
 [![License: Apache-2.0](https://img.shields.io/github/license/ramp-eu/Task_Supervisor.svg)](https://opensource.org/licenses/Apache-2.0)
