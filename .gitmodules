@@ -22,3 +22,6 @@
 [submodule "templates/TTE.project1"]
 	path = templates/TTE.project1
 	url = https://github.com/ramp-eu/TTE.project1
+[submodule "Sensor_Agent_Node"]
+	path = logistics/Sensor_Agent_Node
+	url = https://github.com/ramp-eu/Sensor_Agent_Node
