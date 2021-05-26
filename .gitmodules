@@ -25,3 +25,6 @@
 [submodule "Sensor_Agent_Node"]
 	path = logistics/Sensor_Agent_Node
 	url = https://github.com/ramp-eu/Sensor_Agent_Node
+[submodule "iot_platform/RAMP-IoT"]
+	path = iot_platform/RAMP-IoT
+	url = https://github.com/karikolehmainen/RAMP-IoT
