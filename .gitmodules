@@ -28,3 +28,6 @@
 [submodule "iot_platform/RAMP-IoT"]
 	path = iot_platform/RAMP-IoT
 	url = https://github.com/karikolehmainen/RAMP-IoT
+[submodule "process_optimization/Process_Optimization"]
+	path = process_optimization/Process_Optimization
+	url = https://github.com/ramp-eu/Process_Optimization.git
