@@ -28,3 +28,6 @@
 [submodule "iot_platform/RAMP-IoT"]
 	path = iot_platform/RAMP-IoT
 	url = https://github.com/karikolehmainen/RAMP-IoT
+[submodule "templates/RAMP.component"]
+	path = templates/RAMP.component
+	url = https://github.com/ramp-eu/RAMP.component
