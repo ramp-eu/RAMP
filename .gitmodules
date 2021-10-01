@@ -31,3 +31,39 @@
 [submodule "templates/RAMP.component"]
 	path = templates/RAMP.component
 	url = https://github.com/ramp-eu/RAMP.component
+[submodule "resource_optimization/Process_Optimization"]
+	path = resource_optimization/Process_Optimization
+	url = https://github.com/ramp-eu/Process_Optimization
+[submodule "production_reconfiguration/Manufacturing_Process_Management_System"]
+	path = production_reconfiguration/Manufacturing_Process_Management_System
+	url = https://github.com/ramp-eu/Manufacturing_Process_Management_System
+[submodule "production_reconfiguration/Advanced_Production_Manager"]
+	path = production_reconfiguration/Advanced_Production_Manager
+	url = https://github.com/ramp-eu/Advanced_Production_Manager
+[submodule "connectors/Wearables"]
+	path = connectors/Wearables
+	url = https://github.com/ramp-eu/Wearables
+[submodule "middleware_bridge/FIROS"]
+	path = middleware_bridge/FIROS
+	url = https://github.com/ramp-eu/FIROS
+[submodule "middleware_bridge/Kafka_Bridge"]
+	path = middleware_bridge/Kafka_Bridge
+	url = https://github.com/ramp-eu/Kafka_Bridge
+[submodule "cognitive_HRI/Fatigue_Monitoring_System"]
+	path = cognitive_HRI/Fatigue_Monitoring_System
+	url = https://github.com/ramp-eu/Fatigue_Monitoring_System
+[submodule "cognitive_HRI/Intervention_Manager"]
+	path = cognitive_HRI/Intervention_Manager
+	url = https://github.com/ramp-eu/Intervention_Manager
+[submodule "cognitive_HRI/Pose_Recognition_Correction"]
+	path = cognitive_HRI/Pose_Recognition_Correction
+	url = https://github.com/ramp-eu/Pose_Recognition_Correction
+[submodule "logistics/Temporal_Heatmap_of_Human_Occupancy"]
+	path = logistics/Temporal_Heatmap_of_Human_Occupancy
+	url = https://github.com/ramp-eu/Temporal_Heatmap_of_Human_Occupancy
+[submodule "logistics/Material_Flow_Service"]
+	path = logistics/Material_Flow_Service
+	url = https://github.com/ramp-eu/Material_Flow_Service
+[submodule "logistics/Agent_Optimision_Service"]
+	path = logistics/Agent_Optimision_Service
+	url = https://github.com/ramp-eu/Agent_Optimision_Service
