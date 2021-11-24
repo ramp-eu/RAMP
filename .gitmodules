@@ -46,15 +46,6 @@
 [submodule "middleware_bridge/FIROS"]
 	path = middleware_bridge/FIROS
 	url = https://github.com/ramp-eu/FIROS
-[submodule "middleware_bridge/Kafka_Bridge"]
-	path = middleware_bridge/Kafka_Bridge
-	url = https://github.com/ramp-eu/Kafka_Bridge
-[submodule "cognitive_HRI/Fatigue_Monitoring_System"]
-	path = cognitive_HRI/Fatigue_Monitoring_System
-	url = https://github.com/ramp-eu/Fatigue_Monitoring_System
-[submodule "cognitive_HRI/Intervention_Manager"]
-	path = cognitive_HRI/Intervention_Manager
-	url = https://github.com/ramp-eu/Intervention_Manager
 [submodule "cognitive_HRI/Pose_Recognition_Correction"]
 	path = cognitive_HRI/Pose_Recognition_Correction
 	url = https://github.com/ramp-eu/Pose_Recognition_Correction
@@ -67,3 +58,19 @@
 [submodule "logistics/Agent_Optimision_Service"]
 	path = logistics/Agent_Optimision_Service
 	url = https://github.com/ramp-eu/Agent_Optimision_Service
+[submodule "cognitive_HRI/Worker_Data_Importer"]
+	path = cognitive_HRI/Worker_Data_Importer
+	url = https://github.com/isteps-sps-lab/bf-worker-data-importer
+	branch = main
+[submodule "middleware_bridge/Kafka_Bridge"]
+	path = middleware_bridge/Kafka_Bridge
+	url = https://github.com/isteps-sps-lab/bf-kafka-orion-gateway
+	branch = main
+[submodule "cognitive_HRI/Fatigue_Monitoring_System"]
+	path = cognitive_HRI/Fatigue_Monitoring_System
+	url = https://github.com/isteps-sps-lab/bf-fams
+	branch = main
+[submodule "cognitive_HRI/Intervention_Manager"]
+	path = cognitive_HRI/Intervention_Manager
+	url = https://github.com/isteps-sps-lab/bf-im
+	branch = main
