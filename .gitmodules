@@ -37,9 +37,9 @@
 [submodule "production_reconfiguration/Manufacturing_Process_Management_System"]
 	path = production_reconfiguration/Manufacturing_Process_Management_System
 	url = https://github.com/ramp-eu/Manufacturing_Process_Management_System
-[submodule "production_reconfiguration/Advanced_Production_Manager"]
-	path = production_reconfiguration/Advanced_Production_Manager
-	url = https://github.com/ramp-eu/Advanced_Production_Manager
+[submodule "production_reconfiguration/Advanced_Plant_Model"]
+	path = production_reconfiguration/Advanced_Plant_Model
+	url = https://github.com/ramp-eu/Advanced_Plant_Model
 [submodule "connectors/Wearables"]
 	path = connectors/Wearables
 	url = https://github.com/ramp-eu/Wearables
