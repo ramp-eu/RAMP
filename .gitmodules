@@ -67,3 +67,19 @@
 [submodule "logistics/Agent_Optimision_Service"]
 	path = logistics/Agent_Optimision_Service
 	url = https://github.com/ramp-eu/Agent_Optimision_Service
+[submodule "cognitive_HRI/Worker_Data_Importer"]
+	path = cognitive_HRI/Worker_Data_Importer
+	url = git@github.com:isteps-sps-lab/bf-worker-data-importer
+	branch = main
+[submodule "middleware_bridge/Kafka_Bridge"]
+	path = middleware_bridge/Kafka_Bridge
+	url = git@github.com:isteps-sps-lab/bf-kafka-orion-gateway.git
+	branch = main
+[submodule "cognitive_HRI/Fatigue_Monitoring_System"]
+	path = cognitive_HRI/Fatigue_Monitoring_System
+	url = git@github.com:isteps-sps-lab/bf-fams.git
+	branch = main
+[submodule "cognitive_HRI/Intervention_Manager"]
+	path = cognitive_HRI/Intervention_Manager
+	url = git@github.com:isteps-sps-lab/bf-im.git
+	branch = main
