@@ -83,3 +83,6 @@
 	path = cognitive_HRI/Intervention_Manager
 	url = git@github.com:isteps-sps-lab/bf-im.git
 	branch = main
+[submodule "process_optimization/Process_Optimization"]
+	path = process_optimization/Process_Optimization
+	url = https://github.com/ramp-eu/Process_Optimization.git
